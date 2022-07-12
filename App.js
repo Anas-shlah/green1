@@ -24,7 +24,7 @@ export const UserContexts = createContext();
 export default function App() {
   const [user, SetUser] = useState('');
   //console.log('App.js ', user);
-  console.log('useI   ', user);
+  console.log('useI name  ', user);
   const HomeStack = createNativeStackNavigator();
 
   return (
